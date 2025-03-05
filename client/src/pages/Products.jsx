@@ -174,7 +174,7 @@ const Products = () => {
                                         <img
                                             src={product.image}
                                             alt={product.name}
-                                            className="absolute inset-0 w-full h-full object-cover rounded-t-lg"
+                                            className="absolute inset-0 w-full h-full object-container rounded-t-lg"
                                         />
                                         <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
                                         <div className="absolute top-2 right-2">
